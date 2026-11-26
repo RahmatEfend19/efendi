@@ -1,0 +1,750 @@
+<!DOCTYPE html><html class="dark" lang="id"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.no-scrollbar::-webkit-scrollbar{display:none;}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"success":"#10B981","surface-container":"#192125","on-primary":"#003731","outline-variant":"#3c4a46","on-tertiary-fixed-variant":"#005049","inverse-primary":"#006b5f","primary-fixed-dim":"#3cddc7","surface-bright":"#323a3f","on-primary-fixed":"#00201c","error":"#EF4444","surface-container-highest":"#2e363a","surface-container-lowest":"#080f13","tertiary-fixed":"#89f5e7","border-glow":"rgba(45, 212, 191, 0.35)","secondary-fixed-dim":"#7bd0ff","on-tertiary-fixed":"#00201d","text-primary":"#F8FAFC","tertiary-fixed-dim":"#6bd8cb","on-error":"#690005","surface-container-low":"#151d21","secondary":"#7bd0ff","surface-container-high":"#232b30","surface-elevated":"#10212B","primary-fixed":"#62fae3","warning":"#F59E0B","on-error-container":"#ffdad6","tertiary":"#80ecde","inverse-surface":"#dce4e9","on-secondary-container":"#00374d","tertiary-container":"#62d0c2","surface":"#0B171E","primary-container":"#2dd4bf","on-surface":"#dce4e9","on-secondary-fixed":"#001e2c","on-secondary":"#00354a","on-primary-container":"#00574d","secondary-fixed":"#c4e7ff","surface-tint":"#3cddc7","surface-variant":"#2e363a","outline":"#859490","on-primary-fixed-variant":"#005047","surface-dim":"#0d1419","on-tertiary":"#003732","background":"#0d1419","primary":"#57f1db","on-surface-variant":"#bacac5","on-tertiary-container":"#00574f","inverse-on-surface":"#2a3136","border":"#16323C","on-secondary-fixed-variant":"#004c69","secondary-container":"#00a6e0","on-background":"#dce4e9","error-container":"#93000a","text-secondary":"#94A3B8"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-3xl":"4rem","space-xl":"2rem","margin":"1.25rem","space-2xl":"2.5rem","space-lg":"1.25rem","gutter":"1.25rem","space-xs":"0.25rem","space-md":"1rem","space-sm":"0.5rem","gutter-desktop":"1.5rem","margin-desktop":"2.5rem"},"fontFamily":{"label-xs":["Inter"],"headline-lg":["Plus Jakarta Sans"],"label-sm":["Inter"],"label-md":["Inter"],"headline-md":["Inter"],"body-sm":["Inter"],"headline-xl":["Plus Jakarta Sans"],"body-lg":["Inter"],"body-md":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"]},"fontSize":{"label-xs":["11px",{"lineHeight":"14px","letterSpacing":"0.05em","fontWeight":"600"}],"headline-lg":["26px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-md":["16px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0em","fontWeight":"400"}],"headline-xl":["44px",{"lineHeight":"52px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}],"headline-xl-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}};</script></head><body class="bg-background font-body-md text-body-md text-on-background"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl border-b border-border"><div class="h-16 max-w-7xl mx-auto px-margin lg:px-margin-desktop flex items-center justify-between"><nav class="hidden md:flex items-center gap-space-sm" data-active-classes="bg-primary-container text-on-primary-container font-bold rounded-full"><a aria-current="page" class="px-space-md py-space-xs transition-colors bg-primary-container text-on-primary-container font-bold rounded-full" data-path="home" href="#">Beranda</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="expertise" href="#">Keahlian</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="web-ui" href="#case-studies">Web UI</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="process" href="#process">Proses</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#contact">Kontak</a></nav><div class="flex items-center gap-space-md"><a class="px-space-md py-space-sm rounded-full bg-surface-elevated border border-border hover:border-primary font-label-md text-label-md text-on-surface transition-colors" data-path="contact" href="#contact">Hire Me ↗</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-background"><div class="flex flex-col w-full">
+<!-- Bagian 1: Hero (Pemisahan Asimetris + Metrik) -->
+<section class="relative w-full max-w-7xl mx-auto px-margin lg:px-margin-desktop pt-10 pb-20 lg:pt-16 lg:pb-28 overflow-hidden" id="home">
+<!-- Cahaya Biru Kehijauan Ambien -->
+<div class="absolute top-12 right-1/4 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-10 left-10 w-72 h-72 bg-secondary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-6 items-center">
+<!-- Kolom Kiri (5 Kolom) -->
+<div class="lg:col-span-5 flex flex-col items-start">
+<!-- Lencana Atas (Eyebrow) -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary-container/10 mb-6">
+<span class="w-1.5 h-1.5 rounded-full bg-success animate-pulse"></span>
+<span class="font-label-xs text-label-xs text-primary tracking-wider uppercase">TERBUKA UNTUK KERJA PENUH WAKTU &amp; FREELANCE</span>
+</div>
+<!-- Judul Utama -->
+<h1 class="font-headline-xl text-headline-xl text-text-primary tracking-tight mb-4">
+          Halo, saya <span class="text-primary">Rahmat Efendi</span><span class="inline-block w-1 h-9 bg-primary ml-1.5 align-middle animate-pulse"></span>
+</h1>
+<!-- Subjudul Peran -->
+<p class="font-headline-md text-headline-md text-on-surface mb-4">
+          Desainer Visual — <span class="text-secondary">spesalis desainer</span>
+</p>
+<!-- Biografi -->
+<p class="font-body-lg text-body-lg text-text-secondary mb-8 max-w-lg">
+          Menciptakan desain visual yang kreatif, komunikatif, dan estetis melalui perpaduan konsep, tipografi, warna, serta tata letak yang menarik—dari ide hingga hasil desain akhir.
+        </p>
+<!-- Tombol Aksi -->
+<div class="flex flex-wrap items-center gap-4 mb-12">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md shadow-lg shadow-primary-container/25 hover:brightness-105 transition-all" href="#case-studies">
+<span>Lihat Studi Kasus</span>
+<span>↗</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-surface-elevated text-text-primary font-label-md text-label-md hover:bg-surface-container-high transition-all" href="#contact">
+<span>Unduh CV</span>
+<span>⬇</span>
+</a>
+</div>
+<!-- Penanda Gulir Minimal -->
+<a class="inline-flex items-center gap-3 text-text-secondary hover:text-primary transition-colors group" href="#expertise">
+<span class="w-5 h-8 rounded-full bg-surface-elevated flex items-start justify-center p-1.5">
+<span class="w-1 h-1.5 rounded-full bg-primary animate-bounce"></span>
+</span>
+<span class="font-label-xs text-label-xs tracking-widest uppercase">GULIR KE BAWAH</span>
+</a>
+</div>
+<!-- Visual Tengah-Kanan (4 Kolom) -->
+<div class="lg:col-span-4 relative flex items-center justify-center">
+<div class="relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-surface shadow-2xl shadow-primary-container/10">
+<img class="w-full h-full object-cover object-[center_30%]" alt="Foto Rahmat Efendi, Desainer Visual" src="foto-.jpeg">
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between px-4 py-3 rounded-xl bg-surface/80 backdrop-blur-md">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[20px]">design_services</span>
+<span class="font-label-sm text-label-sm text-text-primary">Desainer &amp; Sistem Desain</span>
+</div>
+<span class="font-label-xs text-label-xs text-primary">2026</span>
+</div>
+</div>
+</div>
+<!-- Kolom Paling Kanan (3 Kolom) -->
+<div class="lg:col-span-3 flex flex-col gap-5">
+<!-- Kartu Statistik Kaca Semitransparan -->
+<div class="rounded-2xl bg-surface/80 backdrop-blur-md p-6 shadow-xl flex flex-col gap-5">
+<div class="flex items-center gap-3.5">
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[20px]">layers</span>
+</div>
+<div class="min-w-0">
+<p class="font-headline-md text-headline-md text-text-primary truncate">4+ Sistem Desain</p>
+<p class="font-body-sm text-body-sm text-text-secondary truncate">Pustaka token yang skalabel</p>
+</div>
+</div>
+<div class="flex items-center gap-3.5">
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[20px]">verified</span>
+</div>
+<div class="min-w-0">
+<p class="font-headline-md text-headline-md text-text-primary truncate">100% Responsif &amp; WCAG AA</p>
+<p class="font-body-sm text-body-sm text-text-secondary truncate">Aksesibel sejak awal</p>
+</div>
+</div>
+<div class="flex items-center gap-3.5">
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[20px]">auto_awesome</span>
+</div>
+<div class="min-w-0">
+<p class="font-headline-md text-headline-md text-text-primary truncate">Figma &amp; Karya Visual</p>
+<p class="font-body-sm text-body-sm text-text-secondary truncate">Eksekusi presisi piksel</p>
+</div>
+</div>
+</div>
+<!-- 4 Tombol Ikon Lingkaran Kaca Gelap -->
+<div class="flex items-center justify-between px-2">
+<a aria-label="Dribbble" class="w-11 h-11 rounded-full bg-surface-elevated/90 backdrop-blur-md flex items-center justify-center text-text-secondary hover:text-primary hover:bg-surface-container-high transition-all" href="#dribbble">
+<svg aria-hidden="true" class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"></path></svg>
+</a>
+<a aria-label="Behance" class="w-11 h-11 rounded-full bg-surface-elevated/90 backdrop-blur-md flex items-center justify-center text-text-secondary hover:text-primary hover:bg-surface-container-high transition-all" href="#behance">
+<svg aria-hidden="true" class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988H0V5.021h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zM3 11h3.584c2.508 0 2.906-3-.312-3H3v3zm3.391 3H3v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"></path></svg>
+</a>
+<a aria-label="LinkedIn" class="w-11 h-11 rounded-full bg-surface-elevated/90 backdrop-blur-md flex items-center justify-center text-text-secondary hover:text-primary hover:bg-surface-container-high transition-all" href="#linkedin">
+<svg aria-hidden="true" class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>
+</a>
+<a aria-label="Komunitas Figma" class="w-11 h-11 rounded-full bg-surface-elevated/90 backdrop-blur-md flex items-center justify-center text-text-secondary hover:text-primary hover:bg-surface-container-high transition-all" href="#figma">
+<svg aria-hidden="true" class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Bagian 2: Keahlian UI/UX & Visual (Grid 6 Kolom) -->
+<section class="w-full max-w-7xl mx-auto px-margin lg:px-margin-desktop py-16 lg:py-24" id="expertise">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+<div>
+<span class="inline-block px-3 py-1 rounded-full bg-primary-container/10 font-label-xs text-label-xs text-primary tracking-wider uppercase mb-3">
+          KOMPETENSI INTI
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Keahlian Desain</h2>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-primary hover:brightness-110 transition-all" href="#case-studies">
+<span>Lihat Proses Desain</span>
+<span>→</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-5">
+<!-- Kartu 1 -->
+<div class="bg-surface rounded-xl p-5 flex flex-col justify-between gap-5 hover:bg-surface-elevated transition-all duration-300 shadow-lg">
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center shadow-sm shadow-primary-container/20">
+<span class="material-symbols-outlined text-primary text-[20px]">draw</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-2">Figma &amp; Prototipe</h3>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-xs text-label-xs text-text-secondary">Ahli</span>
+<span class="font-label-xs text-label-xs text-primary">50%</span>
+</div>
+<div class="w-full h-1 rounded-full bg-surface-elevated overflow-hidden">
+<div class="h-full rounded-full bg-primary-container" style="width: 50%;"></div>
+</div>
+</div>
+</div>
+<!-- Kartu 3 -->
+<div class="bg-surface rounded-xl p-5 flex flex-col justify-between gap-5 hover:bg-surface-elevated transition-all duration-300 shadow-lg">
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center shadow-sm shadow-primary-container/20">
+<span class="material-symbols-outlined text-primary text-[20px]">widgets</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-2">Sistem Desain</h3>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-xs text-label-xs text-text-secondary">Mahir</span>
+<span class="font-label-xs text-label-xs text-primary">70%</span>
+</div>
+<div class="w-full h-1 rounded-full bg-surface-elevated overflow-hidden">
+<div class="h-full rounded-full bg-primary-container" style="width: 70%;"></div>
+</div>
+</div>
+</div>
+<!-- Kartu 4 -->
+<div class="bg-surface rounded-xl p-5 flex flex-col justify-between gap-5 hover:bg-surface-elevated transition-all duration-300 shadow-lg">
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center shadow-sm shadow-primary-container/20">
+<span class="material-symbols-outlined text-primary text-[20px]">brush</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-2">Adobe Illustrator</h3>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-xs text-label-xs text-text-secondary">Mahir</span>
+<span class="font-label-xs text-label-xs text-primary">85%</span>
+</div>
+<div class="w-full h-1 rounded-full bg-surface-elevated overflow-hidden">
+<div class="h-full rounded-full bg-primary-container" style="width: 85%;"></div>
+</div>
+</div>
+</div>
+<!-- Kartu 5 -->
+<div class="bg-surface rounded-xl p-5 flex flex-col justify-between gap-5 hover:bg-surface-elevated transition-all duration-300 shadow-lg">
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center shadow-sm shadow-primary-container/20">
+<span class="material-symbols-outlined text-primary text-[20px]">palette</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-2">Visual &amp; Merek</h3>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-xs text-label-xs text-text-secondary">Ahli</span>
+<span class="font-label-xs text-label-xs text-primary">70%</span>
+</div>
+<div class="w-full h-1 rounded-full bg-surface-elevated overflow-hidden">
+<div class="h-full rounded-full bg-primary-container" style="width: 70%;"></div>
+</div>
+</div>
+</div>
+<!-- Kartu 6 -->
+<div class="bg-surface rounded-xl p-5 flex flex-col justify-between gap-5 hover:bg-surface-elevated transition-all duration-300 shadow-lg">
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center shadow-sm shadow-primary-container/20">
+<span class="material-symbols-outlined text-primary text-[20px]">image</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-2">Adobe Photoshop</h3>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-xs text-label-xs text-text-secondary">Terampil</span>
+<span class="font-label-xs text-label-xs text-primary">85%</span>
+</div>
+<div class="w-full h-1 rounded-full bg-surface-elevated overflow-hidden">
+<div class="h-full rounded-full bg-primary-container" style="width: 85%;"></div>
+</div>
+</div>
+</div>
+<!-- Kartu 7 -->
+<div class="bg-surface rounded-xl p-5 flex flex-col justify-between gap-5 hover:bg-surface-elevated transition-all duration-300 shadow-lg">
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center shadow-sm shadow-primary-container/20">
+<span class="material-symbols-outlined text-primary text-[20px]">view_in_ar</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-2">Blender</h3>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-xs text-label-xs text-text-secondary">Terampil</span>
+<span class="font-label-xs text-label-xs text-primary">50%</span>
+</div>
+<div class="w-full h-1 rounded-full bg-surface-elevated overflow-hidden">
+<div class="h-full rounded-full bg-primary-container" style="width: 50%;"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full max-w-7xl mx-auto px-margin lg:px-margin-desktop py-16 lg:py-24" id="case-studies">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
+<div>
+<span class="inline-block px-3 py-1 rounded-full bg-primary-container/10 font-label-xs text-label-xs text-primary tracking-wider uppercase mb-3">
+          WEB UI UNGGULAN • PAMERAN INTERAKTIF
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Studi Kasus Pilihan</h2>
+<p class="font-body-md text-body-md text-text-secondary mt-1 max-w-xl">
+          Jelajahi hasil desain multi-tampilan, spesifikasi sistem responsif, dan prototipe wireframe dari 6 proyek klien utama.
+        </p>
+</div>
+<!-- Kontrol Navigasi Karousel Global -->
+<div class="flex items-center gap-3">
+<div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface border border-border text-label-xs text-text-secondary">
+<span class="text-primary font-semibold" id="carousel-current-index">1</span>
+<span>/</span>
+<span id="carousel-total-count">6</span>
+<span class="ml-1 text-[10px] uppercase tracking-wider text-text-secondary">Proyek</span>
+</div>
+<button aria-label="Proyek sebelumnya" class="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text-secondary hover:text-primary hover:border-primary/60 hover:shadow-lg hover:shadow-primary-container/20 transition-all focus:outline-none" id="carousel-prev-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+</button>
+<button aria-label="Proyek berikutnya" class="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text-secondary hover:text-primary hover:border-primary/60 hover:shadow-lg hover:shadow-primary-container/20 transition-all focus:outline-none" id="carousel-next-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Lintasan Karousel Horizontal -->
+<div aria-label="Karousel Proyek Pilihan" class="flex gap-6 overflow-x-auto snap-x snap-mandatory no-scrollbar scroll-smooth pb-4 pt-1" id="projects-carousel" tabindex="0">
+<!-- Studi Kasus 1: Analitik SaaS FinFlow -->
+<article class="min-w-[300px] sm:min-w-[340px] md:min-w-[380px] lg:min-w-[400px] flex-shrink-0 snap-start group bg-surface border border-border/80 hover:border-primary/40 rounded-2xl p-5 flex flex-col justify-between gap-4 transition-all duration-300 shadow-xl hover:shadow-primary-container/10">
+<div>
+<!-- Karousel gambar internal / pratinjau multi-tampilan -->
+<div class="relative aspect-[16/10] w-full rounded-xl overflow-hidden bg-surface-container mb-4 group/slider">
+<div class="relative w-full h-full" data-project-gallery="finflow">
+<!-- Tampilan 1: Dashboard Utama -->
+<img alt="Ringkasan UI dashboard analitik keuangan SaaS FinFlow" class="gallery-view absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-100" data-view="0" src="1.png">
+<!-- Tampilan 2: Token Desain & Sistem Komponen -->
+<img alt="Spesifikasi token dan komponen grafik Sistem Desain FinFlow" class="gallery-view absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0 pointer-events-none" data-view="1" src="2.png">
+<!-- Tampilan 3: Tata Letak Responsif Seluler -->
+<img alt="Tampilan dashboard responsif seluler FinFlow" class="gallery-view absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0 pointer-events-none" data-view="2" src="3.png">
+</div>
+<!-- Bayangan Gradien -->
+<div class="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent pointer-events-none"></div>
+<!-- Label Judul Tampilan -->
+<div class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md border border-border/80 flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span class="gallery-label font-label-xs text-[10px] text-on-surface">Tampilan Dashboard</span>
+</div>
+<!-- Penghitung Penanda Slide -->
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md border border-border/80 font-label-xs text-[10px] text-text-secondary">
+<span class="gallery-counter text-primary font-semibold">1</span> / 3
+</div>
+<!-- Panah Mini Sebelumnya/Berikutnya -->
+<div class="absolute inset-y-0 inset-x-2 flex items-center justify-between opacity-0 group-hover/slider:opacity-100 transition-opacity">
+<button aria-label="Gambar sebelumnya" class="gallery-prev-btn w-7 h-7 rounded-full bg-surface/90 backdrop-blur-md border border-border text-on-surface hover:text-primary hover:border-primary flex items-center justify-center transition-all" type="button">
+<span class="material-symbols-outlined text-[14px]">chevron_left</span>
+</button>
+<button aria-label="Gambar berikutnya" class="gallery-next-btn w-7 h-7 rounded-full bg-surface/90 backdrop-blur-md border border-border text-on-surface hover:text-primary hover:border-primary flex items-center justify-center transition-all" type="button">
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+<!-- Titik Interaktif Bawah -->
+<div class="absolute bottom-2.5 inset-x-0 flex items-center justify-center gap-1.5 z-10">
+<button aria-label="Layar 1" class="gallery-dot w-2 h-2 rounded-full bg-primary transition-all" data-target="0" type="button"></button>
+<button aria-label="Layar 2" class="gallery-dot w-2 h-2 rounded-full bg-surface-elevated border border-border hover:bg-text-secondary transition-all" data-target="1" type="button"></button>
+<button aria-label="Layar 3" class="gallery-dot w-2 h-2 rounded-full bg-surface-elevated border border-border hover:bg-text-secondary transition-all" data-target="2" type="button"></button>
+</div>
+</div>
+<!-- Metadata Kartu -->
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-md text-headline-md text-text-primary group-hover:text-primary transition-colors">corousel feed ig</h3>
+<a aria-label="Buka studi kasus" class="text-text-secondary hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px] shrink-0">open_in_new</span>
+</a>
+</div>
+<p class="font-body-md text-body-md text-text-secondary mb-3">
+          Merancang desain carousel Instagram yang kreatif, informatif, dan menarik secara visual melalui perpaduan elemen grafis, tipografi, warna, serta tata letak yang konsisten untuk menyampaikan pesan secara efektif dan meningkatkan daya tarik audiens.
+        </p>
+</div>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-border/40">
+<span class="px-2.5 py-1 rounded-md bg-surface-elevated font-label-xs text-label-xs text-text-secondary">sistem desain</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-elevated font-label-xs text-label-xs text-text-secondary">desain photoshop</span>
+</div>
+</article>
+<!-- Studi Kasus 2: Platform Cloud Veloce -->
+<article class="min-w-[300px] sm:min-w-[340px] md:min-w-[380px] lg:min-w-[400px] flex-shrink-0 snap-start group bg-surface border border-border/80 hover:border-primary/40 rounded-2xl p-5 flex flex-col justify-between gap-4 transition-all duration-300 shadow-xl hover:shadow-primary-container/10">
+<div>
+<!-- Karousel gambar internal -->
+<div class="relative aspect-[16/10] w-full rounded-xl overflow-hidden bg-surface-container mb-4 group/slider">
+<div class="relative w-full h-full" data-project-gallery="veloce">
+<img alt="UI halaman arahan Platform Cloud Veloce" class="gallery-view absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-100" data-view="0" src="karakter-1.png">
+<img alt="Arsitektur modular harga &amp; paket layanan Veloce" class="gallery-view absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0 pointer-events-none" data-view="1" src="karakter-2.png">
+<img alt="Komponen grid bento interaktif Veloce" class="gallery-view absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0 pointer-events-none" data-view="2" src="karakter-3.png">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent pointer-events-none"></div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md border border-border/80 font-label-xs text-[10px] text-text-secondary">
+<span class="gallery-counter text-primary font-semibold">1</span> / 3
+</div>
+<div class="absolute inset-y-0 inset-x-2 flex items-center justify-between opacity-0 group-hover/slider:opacity-100 transition-opacity">
+<button aria-label="Gambar sebelumnya" class="gallery-prev-btn w-7 h-7 rounded-full bg-surface/90 backdrop-blur-md border border-border text-on-surface hover:text-primary hover:border-primary flex items-center justify-center transition-all" type="button">
+<span class="material-symbols-outlined text-[14px]">chevron_left</span>
+</button>
+<button aria-label="Gambar berikutnya" class="gallery-next-btn w-7 h-7 rounded-full bg-surface/90 backdrop-blur-md border border-border text-on-surface hover:text-primary hover:border-primary flex items-center justify-center transition-all" type="button">
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+<div class="absolute bottom-2.5 inset-x-0 flex items-center justify-center gap-1.5 z-10">
+<button aria-label="Layar 1" class="gallery-dot w-2 h-2 rounded-full bg-primary transition-all" data-target="0" type="button"></button>
+<button aria-label="Layar 2" class="gallery-dot w-2 h-2 rounded-full bg-surface-elevated border border-border hover:bg-text-secondary transition-all" data-target="1" type="button"></button>
+<button aria-label="Layar 3" class="gallery-dot w-2 h-2 rounded-full bg-surface-elevated border border-border hover:bg-text-secondary transition-all" data-target="2" type="button"></button>
+</div>
+</div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-md text-headline-md text-text-primary group-hover:text-primary transition-colors">3d model</h3>
+<a aria-label="Buka studi kasus" class="text-text-secondary hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px] shrink-0">open_in_new</span>
+</a>
+</div>
+<p class="font-body-md text-body-md text-text-secondary mb-3">
+          Membuat model 3D yang kreatif dan detail melalui pemodelan objek serta pengaturan tekstur dan material untuk menghasilkan visualisasi yang menarik.
+        </p>
+</div>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-border/40">
+<span class="px-2.5 py-1 rounded-md bg-surface-elevated font-label-xs text-label-xs text-text-secondary">blender</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-elevated font-label-xs text-label-xs text-text-secondary">visual</span>
+</div>
+</article>
+<!-- Studi Kasus 3: Pusat Budaya Nusantara -->
+<article class="min-w-[300px] sm:min-w-[340px] md:min-w-[380px] lg:min-w-[400px] flex-shrink-0 snap-start group bg-surface border border-border/80 hover:border-primary/40 rounded-2xl p-5 flex flex-col justify-between gap-4 transition-all duration-300 shadow-xl hover:shadow-primary-container/10">
+<div>
+<!-- Karousel gambar internal -->
+<div class="relative aspect-[16/10] w-full rounded-xl overflow-hidden bg-surface-container mb-4 group/slider">
+<div class="relative w-full h-full" data-project-gallery="nusantara">
+<img alt="Portal web Pusat Budaya Nusantara" class="gallery-view absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-100" data-view="0" src="mockup-belakang-baju.png">
+<img alt="Alur pemesanan tiket &amp; pameran Nusantara" class="gallery-view absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0 pointer-events-none" data-view="1" src="mockup-depan-baju.png">
+<img alt="Kartu detail pameran editorial Nusantara" class="gallery-view absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0 pointer-events-none" data-view="2" src="belakang.png">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent pointer-events-none"></div>
+<div class="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md border border-border/80 flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span class="gallery-label font-label-xs text-[10px] text-on-surface">Portal Editorial</span>
+</div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-surface/90 backdrop-blur-md border border-border/80 font-label-xs text-[10px] text-text-secondary">
+<span class="gallery-counter text-primary font-semibold">1</span> / 3
+</div>
+<div class="absolute inset-y-0 inset-x-2 flex items-center justify-between opacity-0 group-hover/slider:opacity-100 transition-opacity">
+<button aria-label="Gambar sebelumnya" class="gallery-prev-btn w-7 h-7 rounded-full bg-surface/90 backdrop-blur-md border border-border text-on-surface hover:text-primary hover:border-primary flex items-center justify-center transition-all" type="button">
+<span class="material-symbols-outlined text-[14px]">chevron_left</span>
+</button>
+<button aria-label="Gambar berikutnya" class="gallery-next-btn w-7 h-7 rounded-full bg-surface/90 backdrop-blur-md border border-border text-on-surface hover:text-primary hover:border-primary flex items-center justify-center transition-all" type="button">
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+<div class="absolute bottom-2.5 inset-x-0 flex items-center justify-center gap-1.5 z-10">
+<button aria-label="Layar 1" class="gallery-dot w-2 h-2 rounded-full bg-primary transition-all" data-target="0" type="button"></button>
+<button aria-label="Layar 2" class="gallery-dot w-2 h-2 rounded-full bg-surface-elevated border border-border hover:bg-text-secondary transition-all" data-target="1" type="button"></button>
+<button aria-label="Layar 3" class="gallery-dot w-2 h-2 rounded-full bg-surface-elevated border border-border hover:bg-text-secondary transition-all" data-target="2" type="button"></button>
+</div>
+</div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-md text-headline-md text-text-primary group-hover:text-primary transition-colors">desain logo</h3>
+<a aria-label="Buka studi kasus" class="text-text-secondary hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px] shrink-0">open_in_new</span>
+</a>
+</div>
+<p class="font-body-md text-body-md text-text-secondary mb-3">
+          Merancang logo yang unik, kreatif, dan mudah dikenali dengan menggabungkan konsep visual, tipografi, serta elemen grafis yang mencerminkan identitas sebuah merek.
+        </p>
+</div>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-border/40">
+<span class="px-2.5 py-1 rounded-md bg-surface-elevated font-label-xs text-label-xs text-text-secondary">adobe ilustrator</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-elevated font-label-xs text-label-xs text-text-secondary">desain logo</span>
+</div>
+</article>
+</section>
+<!-- Bagian 4: Spanduk Rekruter & Footer Ringkas -->
+<section class="w-full max-w-7xl mx-auto px-margin lg:px-margin-desktop py-16 lg:py-24" id="contact">
+  <div class="mb-12">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/10 border border-border/80 mb-3">
+      <span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+      <span class="font-label-xs text-label-xs text-primary tracking-wider uppercase">HUBUNGI SAYA • INFORMASI KONTAK</span>
+    </div>
+    <h2 class="font-headline-xl text-headline-xl-mobile sm:text-headline-xl text-text-primary tracking-tight mb-4">
+      Mari Terhubung &amp; Membangun <span class="text-primary">Sesuatu yang Luar Biasa</span>
+    </h2>
+    <p class="font-body-lg text-body-lg text-text-secondary max-w-2xl">
+      Baik Anda memiliki proyek sistem desain, atau ingin menjajaki kolaborasi—kotak masuk dan saluran langsung saya terbuka.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-16">
+    <!-- Kolom Kiri: Kontak Langsung & Ketersediaan (5 Kolom) -->
+    <div class="lg:col-span-5 flex flex-col gap-6">
+      <!-- Kartu Status Aktif -->
+      <div class="p-5 rounded-2xl bg-surface border border-border/80 shadow-lg relative overflow-hidden">
+        <div class="absolute -right-8 -top-8 w-28 h-28 bg-primary-container/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="flex items-center gap-3 mb-2">
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-success opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-success"></span>
+          </span>
+          <span class="font-label-sm text-label-sm text-text-primary font-semibold">Tersedia untuk Peluang</span>
+        </div>
+        <p class="font-body-md text-body-md text-text-secondary mb-3">
+          Terbuka untuk posisi penuh waktu &amp; kontrak desain pilihan (Q1/Q2 2026).
+        </p>
+        <div class="flex items-center gap-2 text-label-xs text-[11px] text-primary">
+          <span class="material-symbols-outlined text-[16px]">bolt</span>
+          <span>Waktu respons umum: dalam 24 jam</span>
+        </div>
+      </div>
+
+      <!-- Daftar Saluran Kontak Langsung -->
+      <div class="flex flex-col gap-3.5">
+        <!-- Item Email -->
+        <div class="p-4 rounded-xl bg-surface border border-border/80 hover:border-primary/40 transition-colors flex items-center justify-between gap-4 group">
+          <div class="flex items-center gap-3.5 min-w-0">
+            <div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary shrink-0 group-hover:scale-105 transition-transform">
+              <span class="material-symbols-outlined text-[20px]">mail</span>
+            </div>
+            <div class="min-w-0">
+              <p class="font-label-xs text-[11px] text-text-secondary uppercase tracking-wider">Email Langsung</p>
+              <a href="mailto:matrahmat7002@gmail.com" class="font-body-md text-body-md text-text-primary hover:text-primary transition-colors truncate block">
+                matrahmat7002@gmail.com
+              </a>
+            </div>
+          </div>
+          <button type="button" onclick="navigator.clipboard.writeText('matrahmat7002@gmail.com'); alert('Alamat email berhasil disalin!');" aria-label="Salin alamat email" class="px-3 py-1.5 rounded-md bg-surface-elevated hover:bg-primary-container hover:text-on-primary-container text-text-secondary font-label-xs text-label-xs transition-all shrink-0 border border-border">
+            Salin
+          </button>
+        </div>
+
+        <!-- WhatsApp / Saluran Langsung -->
+        <div class="p-4 rounded-xl bg-surface border border-border/80 hover:border-primary/40 transition-colors flex items-center justify-between gap-4 group">
+          <div class="flex items-center gap-3.5 min-w-0">
+            <div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary shrink-0 group-hover:scale-105 transition-transform">
+              <span class="material-symbols-outlined text-[20px]">chat</span>
+            </div>
+            <div class="min-w-0">
+              <p class="font-label-xs text-[11px] text-text-secondary uppercase tracking-wider">WhatsApp &amp; Saluran Langsung</p>
+              <p class="font-body-md text-body-md text-text-primary truncate">+62 895 0121 4151</p>
+            </div>
+          </div>
+          <a href="https://wa.me/6289501214151" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-md bg-surface-elevated hover:bg-primary-container hover:text-on-primary-container text-text-secondary font-label-xs text-label-xs transition-all shrink-0 border border-border flex items-center gap-1">
+            <span>WhatsApp</span>
+            <span>↗</span>
+          </a>
+        </div>
+
+        <!-- Lokasi & Zona Waktu -->
+        <div class="p-4 rounded-xl bg-surface border border-border/80 flex items-center gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary shrink-0">
+            <span class="material-symbols-outlined text-[20px]">schedule</span>
+          </div>
+          <div class="min-w-0">
+            <p class="font-label-xs text-[11px] text-text-secondary uppercase tracking-wider">Lokasi &amp; Zona Waktu</p>
+            <p class="font-body-md text-body-md text-text-primary truncate">Surabaya, Indonesia (Rungkut) — Kerja Jarak Jauh ke Seluruh Dunia</p>
+          </div>
+        </div>
+
+        <!-- Jadwalkan Panggilan Perkenalan -->
+        <a href="https://cal.com" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl bg-surface-elevated border border-primary/30 hover:border-primary transition-all flex items-center justify-between gap-4 group shadow-md shadow-primary-container/10">
+          <div class="flex items-center gap-3.5 min-w-0">
+            <div class="w-10 h-10 rounded-lg bg-primary text-on-primary flex items-center justify-center shrink-0">
+              <span class="material-symbols-outlined text-[20px]">calendar_today</span>
+            </div>
+            <div class="min-w-0">
+              <p class="font-headline-md text-headline-md text-text-primary group-hover:text-primary transition-colors truncate">Jadwalkan Panggilan Video 30 Menit</p>
+              <p class="font-body-sm text-body-sm text-text-secondary truncate">Koordinasi via Cal.com atau Google Meet</p>
+            </div>
+          </div>
+          <span class="w-8 h-8 rounded-full bg-surface border border-border flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors shrink-0">
+            <span class="material-symbols-outlined text-[16px]">north_east</span>
+          </span>
+        </a>
+      </div>
+
+      <!-- Bilah Tautan Sosial & Profesional -->
+      <div class="pt-4 border-t border-border/60 flex items-center justify-between">
+        <span class="font-label-xs text-[11px] text-text-secondary uppercase tracking-wider">Ikuti &amp; Lihat Karya</span>
+        <div class="flex items-center gap-2">
+          <a aria-label="Profil LinkedIn" href="#linkedin" class="w-9 h-9 rounded-full bg-surface border border-border flex items-center justify-center text-text-secondary hover:text-primary hover:border-primary transition-colors">
+            <svg aria-hidden="true" class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>
+          </a>
+          <a aria-label="Portofolio Dribbble" href="#dribbble" class="w-9 h-9 rounded-full bg-surface border border-border flex items-center justify-center text-text-secondary hover:text-primary hover:border-primary transition-colors">
+            <svg aria-hidden="true" class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"></path></svg>
+          </a>
+          <a aria-label="Portofolio Behance" href="#behance" class="w-9 h-9 rounded-full bg-surface border border-border flex items-center justify-center text-text-secondary hover:text-primary hover:border-primary transition-colors">
+            <svg aria-hidden="true" class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988H0V5.021h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zM3 11h3.584c2.508 0 2.906-3-.312-3H3v3zm3.391 3H3v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"></path></svg>
+          </a>
+          <a aria-label="Komunitas Figma" href="#figma" class="w-9 h-9 rounded-full bg-surface border border-border flex items-center justify-center text-text-secondary hover:text-primary hover:border-primary transition-colors">
+            <svg aria-hidden="true" class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kolom Kanan: Formulir Rekruter & Pertanyaan Proyek (7 Kolom) -->
+    <div class="lg:col-span-7">
+      <div class="rounded-2xl bg-surface border border-border p-6 sm:p-8 shadow-2xl relative">
+        <div class="flex items-center justify-between mb-6">
+          <div>
+            <h3 class="font-headline-md text-headline-md text-text-primary">Kirim Pesan Langsung</h3>
+            <p class="font-body-sm text-body-sm text-text-secondary mt-0.5">Tuliskan ruang lingkup proyek atau pertanyaan rekrutmen Anda di bawah ini.</p>
+          </div>
+          <div class="hidden sm:flex w-9 h-9 rounded-full bg-primary-container/10 items-center justify-center text-primary">
+            <span class="material-symbols-outlined text-[20px]">send</span>
+          </div>
+        </div>
+
+        <form action="#" method="POST" class="flex flex-col gap-4" onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah dikirim kepada Rahmat Efendi.');">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block font-label-xs text-[11px] text-text-secondary uppercase tracking-wider mb-1.5" for="contact-name">Nama Anda</label>
+              <input id="contact-name" name="name" type="text" required="" placeholder="mis. Sarah Jenkins" class="w-full px-4 py-2.5 rounded-lg bg-surface-elevated border border-border text-text-primary text-body-md placeholder:text-text-secondary/50 focus:border-primary focus:outline-none transition-colors">
+            </div>
+            <div>
+              <label class="block font-label-xs text-[11px] text-text-secondary uppercase tracking-wider mb-1.5" for="contact-email">Email Kerja</label>
+              <input id="contact-email" name="email" type="email" required="" placeholder="sarah@company.com" class="w-full px-4 py-2.5 rounded-lg bg-surface-elevated border border-border text-text-primary text-body-md placeholder:text-text-secondary/50 focus:border-primary focus:outline-none transition-colors">
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-label-xs text-[11px] text-text-secondary uppercase tracking-wider mb-1.5" for="inquiry-type">Jenis Pertanyaan</label>
+            <select id="inquiry-type" name="inquiry-type" class="w-full px-4 py-2.5 rounded-lg bg-surface-elevated border border-border text-text-primary text-body-md focus:border-primary focus:outline-none transition-colors">
+              <option value="recruiter">Rekruter / Posisi UI/UX Penuh Waktu</option>
+              <option value="freelance">Freelance / Proyek Web UI</option>
+              <option value="design-system">Konsultasi Sistem Desain &amp; Token</option>
+              <option value="other">Kolaborasi Lain / Pembicara</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block font-label-xs text-[11px] text-text-secondary uppercase tracking-wider mb-1.5" for="contact-message">Pesan / Ruang Lingkup</label>
+            <textarea id="contact-message" name="message" rows="4" required="" placeholder="Ceritakan tentang posisi, kebutuhan proyek, timeline, atau struktur tim..." class="w-full px-4 py-2.5 rounded-lg bg-surface-elevated border border-border text-text-primary text-body-md placeholder:text-text-secondary/50 focus:border-primary focus:outline-none transition-colors resize-none"></textarea>
+          </div>
+
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-2">
+            <p class="font-label-xs text-[11px] text-text-secondary flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-[14px] text-primary">lock</span>
+              <span>Tanpa spam. Balasan langsung dari Rahmat.</span>
+            </p>
+            <button type="submit" class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold shadow-lg shadow-primary-container/25 hover:brightness-105 transition-all">
+              <span>Kirim Pesan</span>
+              <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bilah Footer Ringkas -->
+  <div class="flex flex-col md:flex-row items-center justify-between gap-6 pt-6 border-t border-border/50">
+    <p class="font-body-sm text-body-sm text-text-secondary">
+      © 2026 Rahmat Efendi. Dibuat dengan presisi.
+    </p>
+    <nav class="flex flex-wrap items-center justify-center gap-6">
+      <a class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors" href="#home">Beranda</a>
+      <a class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors" href="#expertise">Keahlian</a>
+      <a class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors" href="#case-studies">Web UI</a>
+      <a class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors" href="#expertise">Proses</a>
+      <a class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors" href="#contact">Kontak</a>
+    </nav>
+    <button class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-elevated text-text-primary hover:text-primary font-label-xs text-label-xs transition-colors border border-border" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" type="button">
+      <span>↑ Kembali ke Atas</span>
+    </button>
+  </div>
+</section>
+</div></main><footer class="w-full bg-surface border-t border-border py-space-xl"><div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop flex flex-col sm:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><span>© 2025 Rahmat Efendi (RE.Design). Seluruh hak dilindungi.</span><span>Portofolio Desainer UI/UX &amp; Visual</span></div></footer>
+<script>
+  // Pengontrol karousel studi kasus interaktif
+  (function () {
+    const carousel = document.getElementById('projects-carousel');
+    const prevBtn = document.getElementById('carousel-prev-btn');
+    const nextBtn = document.getElementById('carousel-next-btn');
+    const currentIndexEl = document.getElementById('carousel-current-index');
+    const totalCountEl = document.getElementById('carousel-total-count');
+    const pillDots = document.querySelectorAll('#carousel-indicator-pills .pill-dot');
+    const articles = carousel ? Array.from(carousel.querySelectorAll('article')) : [];
+
+    if (!carousel || articles.length === 0) return;
+
+    if (totalCountEl) totalCountEl.textContent = articles.length;
+
+    function getCardWidth() {
+      const card = articles[0];
+      const gap = 24; // gap-6 = 1.5rem (24px)
+      return card ? card.offsetWidth + gap : 360;
+    }
+
+    function updatePills(activeIdx) {
+      if (currentIndexEl) currentIndexEl.textContent = activeIdx + 1;
+      pillDots.forEach((dot, idx) => {
+        if (idx === activeIdx) {
+          dot.classList.remove('w-2', 'bg-surface-elevated');
+          dot.classList.add('w-7', 'bg-primary');
+        } else {
+          dot.classList.remove('w-7', 'bg-primary');
+          dot.classList.add('w-2', 'bg-surface-elevated');
+        }
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        carousel.scrollBy({ left: getCardWidth(), behavior: 'smooth' });
+      });
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        carousel.scrollBy({ left: -getCardWidth(), behavior: 'smooth' });
+      });
+    }
+
+    // Klik langsung pada pil
+    pillDots.forEach((dot, idx) => {
+      dot.addEventListener('click', () => {
+        if (articles[idx]) {
+          articles[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+        }
+      });
+    });
+
+    // Perbarui penanda indeks aktif saat menggulir
+    let scrollTimer;
+    carousel.addEventListener('scroll', () => {
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(() => {
+        const scrollLeft = carousel.scrollLeft;
+        const cardW = getCardWidth();
+        const activeIdx = Math.min(
+          articles.length - 1,
+          Math.max(0, Math.round(scrollLeft / cardW))
+        );
+        updatePills(activeIdx);
+      }, 50);
+    });
+
+    // Dukungan keyboard untuk karousel
+    carousel.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') {
+        carousel.scrollBy({ left: getCardWidth(), behavior: 'smooth' });
+      } else if (e.key === 'ArrowLeft') {
+        carousel.scrollBy({ left: -getCardWidth(), behavior: 'smooth' });
+      }
+    });
+
+    // Pengganti slide multi-tampilan pada kartu proyek
+    const viewLabels = [
+      ['Tampilan Dashboard', 'Token Desain', 'Spesifikasi Seluler'],
+      ['Halaman Arahan Bento', 'Paket Harga', 'Komponen'],
+      ['Portal Editorial', 'Detail Pameran', 'Alur Pemesanan Tiket'],
+      ['Studio Prompt', 'Visualisator Node', 'Spesifikasi Desain'],
+      ['Meja Perdagangan', 'Tampilan Buku Pesanan', 'Kolam Likuiditas'],
+      ['Portal Pasien', 'EHR Diagnostik', 'Telemedisin Seluler']
+    ];
+
+    articles.forEach((card, cardIndex) => {
+      const views = card.querySelectorAll('.gallery-view');
+      const dots = card.querySelectorAll('.gallery-dot');
+      const prevInner = card.querySelector('.gallery-prev-btn');
+      const nextInner = card.querySelector('.gallery-next-btn');
+      const counter = card.querySelector('.gallery-counter');
+      const label = card.querySelector('.gallery-label');
+      let activeView = 0;
+
+      function setView(targetIdx) {
+        if (targetIdx < 0) targetIdx = views.length - 1;
+        if (targetIdx >= views.length) targetIdx = 0;
+        activeView = targetIdx;
+
+        views.forEach((view, idx) => {
+          if (idx === targetIdx) {
+            view.classList.remove('opacity-0', 'pointer-events-none');
+            view.classList.add('opacity-100');
+          } else {
+            view.classList.remove('opacity-100');
+            view.classList.add('opacity-0', 'pointer-events-none');
+          }
+        });
+
+        dots.forEach((dot, idx) => {
+          if (idx === targetIdx) {
+            dot.classList.remove('bg-surface-elevated', 'border', 'border-border');
+            dot.classList.add('bg-primary');
+          } else {
+            dot.classList.remove('bg-primary');
+            dot.classList.add('bg-surface-elevated', 'border', 'border-border');
+          }
+        });
+
+        if (counter) counter.textContent = activeView + 1;
+        if (label && viewLabels[cardIndex] && viewLabels[cardIndex][activeView]) {
+          label.textContent = viewLabels[cardIndex][activeView];
+        }
+      }
+
+      if (prevInner) {
+        prevInner.addEventListener('click', (e) => {
+          e.stopPropagation();
+          setView(activeView - 1);
+        });
+      }
+
+      if (nextInner) {
+        nextInner.addEventListener('click', (e) => {
+          e.stopPropagation();
+          setView(activeView + 1);
+        });
+      }
+
+      dots.forEach((dot) => {
+        dot.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const target = parseInt(dot.getAttribute('data-target') || '0', 10);
+          setView(target);
+        });
+      });
+    });
+  })();
+</script>
+
+
+</body></html>
